@@ -1,5 +1,7 @@
 This application was built using spring boot and selenium webdriver for the web crawling. 
 
+The aim of the application was to crawl over a particular set of pages, extract some key bits of information and then return that information back to the client in JSON form. 
+
 The rationale was to separate out the concerns and give each entity a single responsibilty principle, hence I have one service that's focussed on extracting product information and another service for building the json. 
 
 To run the application you will need to have maven installed locally and Java 7.
